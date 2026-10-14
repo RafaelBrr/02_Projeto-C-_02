@@ -33,6 +33,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.btnLigar = new System.Windows.Forms.Button();
             this.btnDesligar = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -66,7 +68,7 @@
             this.btnLigar.Name = "btnLigar";
             this.btnLigar.Size = new System.Drawing.Size(75, 23);
             this.btnLigar.TabIndex = 0;
-            this.btnLigar.Text = "button3";
+            this.btnLigar.Text = "green";
             this.btnLigar.UseVisualStyleBackColor = true;
             this.btnLigar.Click += new System.EventHandler(this.btnLigar_Click);
             // 
@@ -76,13 +78,32 @@
             this.btnDesligar.Name = "btnDesligar";
             this.btnDesligar.Size = new System.Drawing.Size(75, 23);
             this.btnDesligar.TabIndex = 1;
-            this.btnDesligar.Text = "button4";
+            this.btnDesligar.Text = "red";
             this.btnDesligar.UseVisualStyleBackColor = true;
             this.btnDesligar.Click += new System.EventHandler(this.btnDesligar_Click);
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(190, 314);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "blue";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(170, 82);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 23);
+            this.comboBox1.TabIndex = 3;
+            // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(466, 419);
+            this.ClientSize = new System.Drawing.Size(436, 419);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.btnDesligar);
             this.Controls.Add(this.btnLigar);
             this.Name = "Form1";
@@ -97,5 +118,7 @@
         private Button button2;
         private Button btnLigar;
         private Button btnDesligar;
+        private Button button3;
+        private ComboBox comboBox1;
     }
 }
