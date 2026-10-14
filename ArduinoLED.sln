@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArduinoLED", "ArduinoLED.csproj", "{06A517B2-AE0A-4534-97F6-C75C9E33EE98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06A517B2-AE0A-4534-97F6-C75C9E33EE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A517B2-AE0A-4534-97F6-C75C9E33EE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A517B2-AE0A-4534-97F6-C75C9E33EE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A517B2-AE0A-4534-97F6-C75C9E33EE98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {105DF772-3ABA-479B-939B-4CD600019962}
+	EndGlobalSection
+EndGlobal
