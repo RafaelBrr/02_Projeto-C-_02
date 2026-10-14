@@ -31,6 +31,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnLigar = new System.Windows.Forms.Button();
+            this.btnDesligar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -50,30 +52,41 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Acender LED";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(145, 250);
+            this.button2.Location = new System.Drawing.Point(0, 0);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 44);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Apagar LED";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button1_Click);
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 0;
+            // 
+            // btnLigar
+            // 
+            this.btnLigar.Location = new System.Drawing.Point(190, 197);
+            this.btnLigar.Name = "btnLigar";
+            this.btnLigar.Size = new System.Drawing.Size(75, 23);
+            this.btnLigar.TabIndex = 0;
+            this.btnLigar.Text = "button3";
+            this.btnLigar.UseVisualStyleBackColor = true;
+            this.btnLigar.Click += new System.EventHandler(this.btnLigar_Click);
+            // 
+            // btnDesligar
+            // 
+            this.btnDesligar.Location = new System.Drawing.Point(190, 257);
+            this.btnDesligar.Name = "btnDesligar";
+            this.btnDesligar.Size = new System.Drawing.Size(75, 23);
+            this.btnDesligar.TabIndex = 1;
+            this.btnDesligar.Text = "button4";
+            this.btnDesligar.UseVisualStyleBackColor = true;
+            this.btnDesligar.Click += new System.EventHandler(this.btnDesligar_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(375, 366);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(466, 419);
+            this.Controls.Add(this.btnDesligar);
+            this.Controls.Add(this.btnLigar);
             this.Name = "Form1";
-            this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -82,5 +95,7 @@
         private TextBox textBox1;
         private Button button1;
         private Button button2;
+        private Button btnLigar;
+        private Button btnDesligar;
     }
 }
