@@ -17,8 +17,12 @@ namespace ArduinoLED
 
             porta.NewLine = "\n";
 
-            btnLigar.Click += btnLigar_Click;
-            btnDesligar.Click += btnDesligar_Click;
+            btnGreenLigar.Click += btnGreenLigar_Click;
+            btnGreenDesligar.Click += btnGreenDesligar_Click;
+            btnRedLigar.Click += btnRedLigar_Click;
+            btnRedDesligar.Click += btnRedDesligar_Click;
+            btnBlueLigar.Click += btnBlueLigar_Click;
+            btnBlueDesligar.Click += btnBlueDesligar_Click;
         }
 
         protected override void OnLoad(EventArgs e)
@@ -61,19 +65,39 @@ namespace ArduinoLED
             base.OnFormClosed(e);
         }
 
-        private void btnLigar_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGreenLigar_Click(object sender, EventArgs e)
         {
             EnviarComando("A");
         }
 
-        private void btnDesligar_Click(object sender, EventArgs e)
+        private void btnGreenDesligar_Click(object sender, EventArgs e)
         {
             EnviarComando("B");
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnRedLigar_Click(object sender, EventArgs e)
         {
+            EnviarComando("C");
+        }
 
+        private void btnRedDesligar_Click(object sender, EventArgs e)
+        {
+            EnviarComando("D");
+        }
+
+        private void btnBlueLigar_Click(object sender, EventArgs e)
+        {
+            EnviarComando("E");
+        }
+
+        private void btnBlueDesligar_Click(object sender, EventArgs e)
+        {
+            EnviarComando("F");
         }
     }
 }

@@ -31,12 +31,13 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.btnLigar = new System.Windows.Forms.Button();
-            this.btnDesligar = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnGreenLigar = new System.Windows.Forms.Button();
+            this.btnGreenDesligar = new System.Windows.Forms.Button();
+            this.btnRedLigar = new System.Windows.Forms.Button();
+            this.btnRedDesligar = new System.Windows.Forms.Button();
+            this.btnBlueLigar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnBlueDesligar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -64,52 +65,55 @@
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 0;
             // 
-            // btnLigar
+            // btnGreenLigar
             // 
-            this.btnLigar.Location = new System.Drawing.Point(190, 197);
-            this.btnLigar.Name = "btnLigar";
-            this.btnLigar.Size = new System.Drawing.Size(75, 23);
-            this.btnLigar.TabIndex = 0;
-            this.btnLigar.Text = "LED 13";
-            this.btnLigar.UseVisualStyleBackColor = true;
-            this.btnLigar.Click += new System.EventHandler(this.btnLigar_Click);
+            this.btnGreenLigar.Location = new System.Drawing.Point(41, 200);
+            this.btnGreenLigar.Name = "btnGreenLigar";
+            this.btnGreenLigar.Size = new System.Drawing.Size(75, 23);
+            this.btnGreenLigar.TabIndex = 0;
+            this.btnGreenLigar.Text = "Green ON";
+            this.btnGreenLigar.UseVisualStyleBackColor = true;
+            this.btnGreenLigar.Click += new System.EventHandler(this.btnGreenLigar_Click);
             // 
-            // btnDesligar
+            // btnGreenDesligar
             // 
-            this.btnDesligar.Location = new System.Drawing.Point(190, 236);
-            this.btnDesligar.Name = "btnDesligar";
-            this.btnDesligar.Size = new System.Drawing.Size(75, 23);
-            this.btnDesligar.TabIndex = 1;
-            this.btnDesligar.Text = "LED 12";
-            this.btnDesligar.UseVisualStyleBackColor = true;
-            this.btnDesligar.Click += new System.EventHandler(this.btnDesligar_Click);
+            this.btnGreenDesligar.Location = new System.Drawing.Point(41, 243);
+            this.btnGreenDesligar.Name = "btnGreenDesligar";
+            this.btnGreenDesligar.Size = new System.Drawing.Size(75, 23);
+            this.btnGreenDesligar.TabIndex = 1;
+            this.btnGreenDesligar.Text = "Green OFF";
+            this.btnGreenDesligar.UseVisualStyleBackColor = true;
+            this.btnGreenDesligar.Click += new System.EventHandler(this.btnGreenDesligar_Click);
             // 
-            // button3
+            // btnRedLigar
             // 
-            this.button3.Location = new System.Drawing.Point(190, 278);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "LED 11";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnRedLigar.Location = new System.Drawing.Point(159, 200);
+            this.btnRedLigar.Name = "btnRedLigar";
+            this.btnRedLigar.Size = new System.Drawing.Size(75, 23);
+            this.btnRedLigar.TabIndex = 2;
+            this.btnRedLigar.Text = "Red ON";
+            this.btnRedLigar.UseVisualStyleBackColor = true;
+            this.btnRedLigar.Click += new System.EventHandler(this.btnRedLigar_Click);
             // 
-            // button4
+            // btnRedDesligar
             // 
-            this.button4.Location = new System.Drawing.Point(190, 319);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "LED 10";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnRedDesligar.Location = new System.Drawing.Point(159, 243);
+            this.btnRedDesligar.Name = "btnRedDesligar";
+            this.btnRedDesligar.Size = new System.Drawing.Size(75, 23);
+            this.btnRedDesligar.TabIndex = 2;
+            this.btnRedDesligar.Text = "Red OFF";
+            this.btnRedDesligar.UseVisualStyleBackColor = true;
+            this.btnRedDesligar.Click += new System.EventHandler(this.btnRedDesligar_Click);
             // 
-            // button5
+            // btnBlueLigar
             // 
-            this.button5.Location = new System.Drawing.Point(190, 365);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "LED 09";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnBlueLigar.Location = new System.Drawing.Point(276, 200);
+            this.btnBlueLigar.Name = "btnBlueLigar";
+            this.btnBlueLigar.Size = new System.Drawing.Size(75, 23);
+            this.btnBlueLigar.TabIndex = 2;
+            this.btnBlueLigar.Text = "Blue ON";
+            this.btnBlueLigar.UseVisualStyleBackColor = true;
+            this.btnBlueLigar.Click += new System.EventHandler(this.btnBlueLigar_Click);
             // 
             // label1
             // 
@@ -121,15 +125,26 @@
             this.label1.Text = "Arduino LED";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // btnBlueDesligar
+            // 
+            this.btnBlueDesligar.Location = new System.Drawing.Point(276, 243);
+            this.btnBlueDesligar.Name = "btnBlueDesligar";
+            this.btnBlueDesligar.Size = new System.Drawing.Size(75, 23);
+            this.btnBlueDesligar.TabIndex = 2;
+            this.btnBlueDesligar.Text = "Blue OFF";
+            this.btnBlueDesligar.UseVisualStyleBackColor = true;
+            this.btnBlueDesligar.Click += new System.EventHandler(this.btnBlueDesligar_Click);
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(436, 419);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.btnDesligar);
-            this.Controls.Add(this.btnLigar);
+            this.Controls.Add(this.btnBlueDesligar);
+            this.Controls.Add(this.btnBlueLigar);
+            this.Controls.Add(this.btnRedDesligar);
+            this.Controls.Add(this.btnRedLigar);
+            this.Controls.Add(this.btnGreenDesligar);
+            this.Controls.Add(this.btnGreenLigar);
             this.Name = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -141,11 +156,12 @@
         private TextBox textBox1;
         private Button button1;
         private Button button2;
-        private Button btnLigar;
-        private Button btnDesligar;
-        private Button button3;
-        private Button button4;
-        private Button button5;
+        private Button btnGreenLigar;
+        private Button btnGreenDesligar;
+        private Button btnRedLigar;
+        private Button btnRedDesligar;
+        private Button btnBlueLigar;
         private Label label1;
+        private Button btnBlueDesligar;
     }
 }
