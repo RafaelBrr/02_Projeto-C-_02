@@ -9,7 +9,7 @@ namespace ArduinoLED
     {
         // Troque COM3 pela porta do seu Arduino.
         private readonly SerialPort porta =
-            new SerialPort("COM3", 9600);
+            new SerialPort("COM11", 9600);
 
         public Form1()
         {
@@ -63,12 +63,12 @@ namespace ArduinoLED
 
         private void btnLigar_Click(object sender, EventArgs e)
         {
-            EnviarComando("ON");
+            EnviarComando("A");
         }
 
         private void btnDesligar_Click(object sender, EventArgs e)
         {
-            EnviarComando("OFF");
+            EnviarComando("B");
         }
 
         private void label1_Click(object sender, EventArgs e)

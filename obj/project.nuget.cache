@@ -1,27 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "XJFSukM1P8kTIhhLBueeH9BU16bBGz314Ur5fwmUp7J2gCeBMh5VAfu8XtjRPxCFzXVeNdq3dLJsiILGgGMWIg==",
+  "dgSpecHash": "0/F1xJqSgaoNN7NH6ADB7ATAJ8rrwri5At+o2xsM1K/94aaOz8UR6XXba0rBf9Zs6P/DnnyTI9vd8LbpufeWlA==",
   "success": true,
   "projectFilePath": "D:\\MY-WORKSPACES\\C#\\ArduinoLED\\ArduinoLED.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\10.0.13\\runtime.android-arm.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\10.0.13\\runtime.android-arm64.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.android-x64.runtime.native.system.io.ports\\10.0.13\\runtime.android-x64.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.android-x86.runtime.native.system.io.ports\\10.0.13\\runtime.android-x86.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\10.0.13\\runtime.linux-arm.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\10.0.13\\runtime.linux-arm64.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.linux-bionic-arm64.runtime.native.system.io.ports\\10.0.13\\runtime.linux-bionic-arm64.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.linux-bionic-x64.runtime.native.system.io.ports\\10.0.13\\runtime.linux-bionic-x64.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.linux-musl-arm.runtime.native.system.io.ports\\10.0.13\\runtime.linux-musl-arm.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.linux-musl-arm64.runtime.native.system.io.ports\\10.0.13\\runtime.linux-musl-arm64.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.linux-musl-x64.runtime.native.system.io.ports\\10.0.13\\runtime.linux-musl-x64.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\10.0.13\\runtime.linux-x64.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.maccatalyst-arm64.runtime.native.system.io.ports\\10.0.13\\runtime.maccatalyst-arm64.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.maccatalyst-x64.runtime.native.system.io.ports\\10.0.13\\runtime.maccatalyst-x64.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.native.system.io.ports\\10.0.13\\runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\10.0.13\\runtime.osx-arm64.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\10.0.13\\runtime.osx-x64.runtime.native.system.io.ports.10.0.13.nupkg.sha512",
-    "C:\\Users\\fmce508\\.nuget\\packages\\system.io.ports\\10.0.13\\system.io.ports.10.0.13.nupkg.sha512"
+    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.native.system.io.ports\\6.0.0\\runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.osx-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\fmce508\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\6.0.0\\runtime.osx-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\fmce508\\.nuget\\packages\\system.io.ports\\6.0.0\\system.io.ports.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
